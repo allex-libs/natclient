@@ -1,0 +1,25 @@
+{
+  "name": "allex_natclientlib",
+  "version": "1.0.0",
+  "description": "AllexJS lib with the client for the Nat service",
+  "main": "index.js",
+  "scripts": {
+    "test": "allex-mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allex-libs/natclient.git"
+  },
+  "keywords": [
+    "ecosystem:AllexJS",
+    "nat",
+    "client",
+    "lib"
+  ],
+  "author": "Andrija Petrovic <andrija.hers@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allex-libs/natclient/issues"
+  },
+  "homepage": "https://github.com/allex-libs/natclient#readme"
+}
