@@ -1,13 +1,9 @@
 function createLib (execlib) {
-  return execlib.loadDependencies('client', ['allex:jobondestroyable:lib'], libCreator.bind(null, execlib));
-}
-
-function libCreator (execlib, jobondestroyablelib) {
   'use strict';
 
   var ret = {};
 
-  require('./clientcreator')(execlib, jobondestroyablelib, ret);
+  require('./clientcreator')(execlib, ret);
 
   return ret;
 }

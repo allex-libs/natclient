@@ -1,4 +1,4 @@
-function createClient (execlib, jobondestroyablelib, mylib) {
+function createClient (execlib, mylib) {
   'use strict';
 
   var lib = execlib.lib,
@@ -6,7 +6,7 @@ function createClient (execlib, jobondestroyablelib, mylib) {
     qlib = lib.qlib,
     execSuite = execlib.execSuite,
     taskRegistry = execSuite.taskRegistry,
-    jobs = require('./jobs')(execlib, jobondestroyablelib);
+    jobs = require('./jobs')(execlib);
 
   function NatClient () {
     this.jobs = new qlib.JobCollection();

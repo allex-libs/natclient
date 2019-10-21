@@ -1,8 +1,8 @@
-function createJobs (execlib, jobondestroyablelib) {
+function createJobs (execlib) {
   'use strict';
 
   var lib = execlib.lib,
-    JobOnDestroyableBase = jobondestroyablelib.JobOnDestroyableBase;
+    JobOnDestroyableBase = lib.qlib.JobOnDestroyableBase;
 
   function JobOnNatClient (client, defer) {
     JobOnDestroyableBase.call(this, client, defer);

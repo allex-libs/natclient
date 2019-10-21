@@ -1,6 +1,6 @@
 {
   "name": "allex_natclientlib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AllexJS lib with the client for the Nat service",
   "main": "index.js",
   "scripts": {
